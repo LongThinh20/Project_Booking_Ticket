@@ -1,0 +1,50 @@
+// npm start
+// .nav-menu {
+//   background-color: burlywood;
+//   width: 250px;
+//   height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   position: fixed;
+//   top: 0;
+//   transition: 850ms;
+//   .active {
+//     left: 0;
+//     transition: 350ms;
+//   }
+//   .nav-text {
+//     display: flex;
+//     justify-content: start;
+//     align-items: center;
+//     padding: 8px 0px 8px 16px;
+//     list-style: none;
+//     height: 60px;
+//     a {
+//       text-decoration: none;
+//       color: cadetblue;
+//       font-size: 18px;
+//       height: 100%;
+//       display: flex;
+//       align-items: center;
+//       padding: 0 16px;
+//       border-radius: 4px;
+//       &:hover {
+//         background-color: chocolate;
+//       }
+//       span {
+//         margin-left: 16px;
+//       }
+//     }
+//   }
+//   .nav-meu-items {
+//     width: 100%;
+//     .navbar-toggle {
+//       background-color: coral;
+//       width: 100%;
+//       height: 80px;
+//       display: flex;
+//       justify-content: start;
+//       align-items: center;
+//     }
+//   }
+// }

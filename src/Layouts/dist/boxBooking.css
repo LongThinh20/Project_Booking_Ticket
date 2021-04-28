@@ -1,0 +1,61 @@
+.boxBooking {
+  height: 350px;
+  width: 400px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 30%;
+  right: 5%;
+  z-index: 100;
+}
+.boxBooking h3 {
+  background-color: #eb7633;
+  color: white;
+  padding: 10px;
+}
+.boxBooking .box_title {
+  border: none;
+}
+.boxBooking .box_title li {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.boxBooking .box_title li a {
+  color: white;
+}
+.boxBooking .box_title li a:active {
+  background-color: transparent;
+}
+.boxBooking .box_title li a:hover {
+  border: none;
+}
+.boxBooking .box_title li .active {
+  background-color: transparent;
+  color: #eb7633;
+  border: none;
+  border-bottom: 1xp solid #f8b85d;
+}
+.boxBooking .box_content .box_item {
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+.boxBooking .box_content .box_item option:hover {
+  background-color: #f8b85d;
+}
+.boxBooking .btn_Booking {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 5px 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+  background-color: #eb7633;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .boxBooking {
+    display: none;
+  }
+}

@@ -1,0 +1,101 @@
+@import "../Sass/Helpers/mixin";
+@import "../Sass/Helpers/variables";
+
+.mobileApp {
+  background-image: url(../img/background.jpg);
+  min-height: 400px;
+  .content {
+    padding: 50px 0;
+    .content_left {
+      margin: auto 0;
+      line-height: 3em;
+      align-items: center;
+      color: white;
+      width: 80%;
+      text-align: center;
+      p {
+        @include styleText(white, 18px, $fw-bold);
+      }
+    }
+    .content_right {
+      .out_line {
+        img {
+          height: 100%;
+          width: 100%;
+        }
+        border: 5px solid $color-black-bg;
+        width: 50%;
+        margin: auto;
+        border-radius: 20px;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+@include responsive("md") {
+  .mobileApp {
+    background-image: url(../img/background.jpg);
+    .content {
+      padding: 50px 0;
+      .content_left {
+        margin: auto 0;
+        line-height: 3em;
+        align-items: center;
+        color: white;
+        width: 60%;
+        text-align: center;
+        p {
+          @include styleText(white, 18px, $fw-bold);
+        }
+      }
+      .content_right {
+        .out_line {
+          img {
+            height: 100%;
+            width: 100%;
+          }
+          border: 5px solid $color-black-bg;
+          width: 60%;
+          margin: auto;
+          border-radius: 20px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+
+@include responsive("xs") {
+  .mobileApp {
+    background-image: url(../img/background.jpg);
+    .content {
+      padding: 50px 0;
+      .content_left {
+        margin: auto 0;
+        line-height: 3em;
+        align-items: center;
+        color: white;
+        width: 60%;
+        text-align: center;
+        p {
+          @include styleText(white, 13px, $fw-bold);
+        }
+      }
+      .content_right {
+        .out_line {
+          img {
+            height: 100%;
+            width: 100%;
+          }
+          border: 5px solid $color-black-bg;
+          width: 60%;
+          margin: auto;
+          border-radius: 20px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,295 @@
+.seatList ._countDown {
+  margin-top: 50px;
+}
+
+.seatList .seatList_detail {
+  background: url(../img/screen.png);
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+
+.seatList .seatList_detail .custom table tbody tr td {
+  padding: 5px;
+}
+
+.seatList .seatList_detail .custom table tbody tr .rowName {
+  padding-right: 20px;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.seatList .seatList_detail .contentBottom {
+  padding-top: 30px;
+}
+
+.seatList .seatList_detail .contentBottom .row {
+  margin: auto;
+  width: 60%;
+}
+
+.seatList .seatList_detail .contentBottom .row .col {
+  max-width: 100px;
+}
+
+.seatList .seatList_detail .contentBottom .row .col .label {
+  color: #7d7d7d;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.seatList .payList_detail .contentRight {
+  -webkit-box-shadow: 5px 10px 8px #888888;
+          box-shadow: 5px 10px 8px #888888;
+  margin-bottom: 50px;
+}
+
+.seatList .payList_detail .contentRight .totalCost {
+  color: #555555;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.seatList .payList_detail .contentRight .bookingEdit {
+  color: white;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 50px;
+  height: 50px;
+}
+
+.seatList .payList_detail .contentRight .discountInput label {
+  margin: 0;
+}
+
+.seatList .payList_detail .contentRight .discountInput input {
+  border: none;
+  padding: 0;
+}
+
+.seatList .payList_detail .contentRight .discountInput input:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.seatList .payList_detail .contentRight .payMents label {
+  line-height: 35px;
+}
+
+.seatList .payList_detail .contentRight .payMents label .form-check-input {
+  height: 20px;
+  width: 20px;
+  margin-top: 8px;
+}
+
+.seatList .payList_detail .contentRight .payMents label .form-check-input:active {
+  color: #eb7633;
+}
+
+.seatList .payList_detail .contentRight .payMents .ATM_content button {
+  border: 1px solid #e1e1e1;
+  background-color: transparent;
+  width: 60px;
+  height: 50px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.seatList .payList_detail .contentRight .payMents .ATM_content button:focus {
+  outline: none;
+  border-color: #eb7633;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .seatList ._countDown {
+    margin-top: 50px;
+  }
+  .seatList .seatList_detail {
+    background: url(../img/screen.png);
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+  }
+  .seatList .seatList_detail .custom table tbody tr td {
+    padding: 0px;
+  }
+  .seatList .seatList_detail .custom table tbody tr .rowName {
+    padding-right: 5px;
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .seatList .seatList_detail .contentBottom {
+    padding-top: 30px;
+  }
+  .seatList .seatList_detail .contentBottom .row {
+    margin: auto;
+    width: 70%;
+  }
+  .seatList .seatList_detail .contentBottom .row .col {
+    max-width: 100px;
+  }
+  .seatList .seatList_detail .contentBottom .row .col .label {
+    color: #7d7d7d;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .seatList .payList_detail .contentRight {
+    -webkit-box-shadow: 5px 10px 8px #888888;
+            box-shadow: 5px 10px 8px #888888;
+    margin-bottom: 50px;
+  }
+  .seatList .payList_detail .contentRight .totalCost {
+    color: #555555;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .seatList .payList_detail .contentRight .bookingEdit {
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 50px;
+    height: 50px;
+  }
+  .seatList .payList_detail .contentRight .discountInput label {
+    margin: 0;
+  }
+  .seatList .payList_detail .contentRight .discountInput input {
+    border: none;
+    padding: 0;
+  }
+  .seatList .payList_detail .contentRight .discountInput input:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .seatList .payList_detail .contentRight .payMents label {
+    line-height: 35px;
+  }
+  .seatList .payList_detail .contentRight .payMents label .form-check-input {
+    height: 20px;
+    width: 20px;
+    margin-top: 8px;
+  }
+  .seatList .payList_detail .contentRight .payMents label .form-check-input:active {
+    color: #eb7633;
+  }
+  .seatList .payList_detail .contentRight .payMents .ATM_content button {
+    border: 1px solid #e1e1e1;
+    background-color: transparent;
+    width: 60px;
+    height: 50px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .seatList .payList_detail .contentRight .payMents .ATM_content button:focus {
+    outline: none;
+    border-color: #eb7633;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .seatList ._countDown {
+    margin-top: 50px;
+  }
+  .seatList .seatList_detail {
+    border: 10px solid #555555;
+    background: url(../img/screen.png);
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    min-width: 700px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .seatList .seatList_detail .custom {
+    width: 700px;
+  }
+  .seatList .seatList_detail .custom table tbody tr td {
+    padding: 0px;
+  }
+  .seatList .seatList_detail .custom table tbody tr .rowName {
+    padding-right: 5px;
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .seatList .seatList_detail .contentBottom {
+    padding-top: 30px;
+  }
+  .seatList .seatList_detail .contentBottom .row {
+    margin: auto;
+    width: 90%;
+  }
+  .seatList .seatList_detail .contentBottom .row .col {
+    max-width: 100px;
+  }
+  .seatList .seatList_detail .contentBottom .row .col .label {
+    color: #7d7d7d;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .seatList .payList_detail .contentRight {
+    width: 150%;
+    margin: auto;
+    -webkit-box-shadow: 5px 10px 8px #888888;
+            box-shadow: 5px 10px 8px #888888;
+    margin-bottom: 50px;
+  }
+  .seatList .payList_detail .contentRight .totalCost {
+    color: #555555;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .seatList .payList_detail .contentRight .bookingEdit {
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 50px;
+    height: 50px;
+  }
+  .seatList .payList_detail .contentRight .discountInput label {
+    margin: 0;
+  }
+  .seatList .payList_detail .contentRight .discountInput input {
+    border: none;
+    padding: 0;
+  }
+  .seatList .payList_detail .contentRight .discountInput input:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .seatList .payList_detail .contentRight .payMents label {
+    line-height: 35px;
+  }
+  .seatList .payList_detail .contentRight .payMents label .form-check-input {
+    height: 20px;
+    width: 20px;
+    margin-top: 8px;
+  }
+  .seatList .payList_detail .contentRight .payMents label .form-check-input:active {
+    color: #eb7633;
+  }
+  .seatList .payList_detail .contentRight .payMents .ATM_content button {
+    border: 1px solid #e1e1e1;
+    background-color: transparent;
+    width: 60px;
+    height: 50px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .seatList .payList_detail .contentRight .payMents .ATM_content button:focus {
+    outline: none;
+    border-color: #eb7633;
+  }
+}
+/*# sourceMappingURL=seatList.css.map */

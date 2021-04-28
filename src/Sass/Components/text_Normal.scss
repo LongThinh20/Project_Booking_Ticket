@@ -1,0 +1,7 @@
+
+@import '../Helpers/mixin';
+@import '../Helpers/variables';
+
+.text_Normal{
+    @include  styleText($color-gray-0,15px,$fw-normal);
+}

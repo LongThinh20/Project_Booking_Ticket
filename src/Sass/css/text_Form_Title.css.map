@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,gBAAgB,CAAA;ECDZ,KAAK,ECGO,IAAI;EDFhB,SAAS,EDC0B,IAAI;ECAvC,WAAW,ECgDH,GAAG;EF/CX,WAAW,EAAE,IAAI;CAEpB",
+    "sources": [
+        "../Components/text_Form_Title.scss",
+        "../Helpers/_mixin.scss",
+        "../Helpers/_variables.scss",
+        "../Helpers/_variables.scss"
+    ],
+    "names": [],
+    "file": "text_Form_Title.css"
+}

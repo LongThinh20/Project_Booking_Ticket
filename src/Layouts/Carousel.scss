@@ -1,0 +1,119 @@
+@import "../Sass/Helpers/mixin";
+@import "../Sass/Helpers/variables";
+
+.movieCarousel {
+  #movieSlider {
+    .carousel-indicators {
+      margin: auto;
+      padding-bottom: 50px;
+
+      li {
+        width: 10px;
+        height: 10px;
+        border: 2px solid white;
+        border-radius: 50%;
+        background-color: transparent;
+        opacity: 1;
+        background-clip: border-box;
+      }
+
+      .active {
+        background-color: white;
+      }
+    }
+
+    .carousel-inner {
+      .carousel-item {
+        height: 800px;
+      }
+
+      .img-1 {
+        background-image: url(../img/panel_3.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .img-2 {
+        background-image: url(../img/panel_1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .img-3 {
+        background-image: url(../img/panel_2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      height: 40px;
+      width: 40px;
+    }
+  }
+}
+@include responsive("lg") {
+  .movieCarousel {
+    #movieSlider {
+      .carousel-indicators {
+           
+        li {
+          width: 10px;
+          height: 10px;
+          border: 2px solid white;
+          border-radius: 50%;
+          background-color: transparent;
+          opacity: 1;
+          background-clip: border-box;
+        }
+
+        .active {
+          background-color: white;
+        }
+      }
+
+      .carousel-inner {
+        .carousel-item {
+          height: 600px;
+        }
+
+        .img-1 {
+          background-image: url(../img/panel_3.jpg);
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .img-2 {
+          background-image: url(../img/panel_1.jpg);
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .img-3 {
+          background-image: url(../img/panel_2.jpg);
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
+
+      .carousel-control-next-icon,
+      .carousel-control-prev-icon {
+        height: 40px;
+        width: 40px;
+      }
+    }
+  }
+}
+
+@include responsive("md") {
+  .movieCarousel {
+    display: none;
+  }
+}

@@ -1,0 +1,211 @@
+.header {
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: black;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.header .header_account {
+  margin-top: 10px;
+}
+
+.header .header_account .account_detail {
+  background-color: transparent;
+  border: 1px solid #eb7633;
+  color: wheat;
+}
+
+.header .header_account .account_detail:focus {
+  background-color: transparent;
+  outline: none;
+}
+
+.header .header_account .account_detail:active {
+  background-color: transparent;
+  outline: none;
+}
+
+.header .header_account .acount_logout:focus {
+  background-color: #eb7633;
+}
+
+.header .header_account .account_icon {
+  margin-right: 10px;
+}
+
+.header .header__nav .navbar-nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  -webkit-transition: all 0.5;
+  transition: all 0.5;
+  margin: auto;
+}
+
+.header .header__nav .navbar-nav .nav-item .nav-link {
+  color: white;
+  padding: 10px 25px 10px 25px;
+  font-size: 18px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header .header__nav .navbar-nav .nav-item::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  display: block;
+  background: -webkit-gradient(linear, left top, right top, from(#f8b85d), to(#eb7633));
+  background: linear-gradient(to right, #f8b85d, #eb7633);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.header .header__nav .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+.header .header__nav .navbar-nav .nav-item:active::after {
+  width: 100%;
+}
+
+.header .header__nav .navbar-nav .active {
+  color: yellow !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background: black;
+    width: 100%;
+    opacity: 0.8;
+  }
+  .header .header_account {
+    margin-top: 10px;
+  }
+  .header .header_account .account_detail {
+    background-color: transparent;
+    border: 1px solid #eb7633;
+    color: wheat;
+  }
+  .header .header_account .account_detail:focus {
+    background-color: transparent;
+    outline: none;
+  }
+  .header .header_account .account_detail:active {
+    background-color: transparent;
+    outline: none;
+  }
+  .header .header_account .acount_logout:focus {
+    background-color: #eb7633;
+  }
+  .header .header_account .account_icon {
+    margin-right: 10px;
+  }
+  .header .header__nav .navbar-nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    -webkit-transition: all 0.5;
+    transition: all 0.5;
+    width: 800px;
+  }
+  .header .header__nav .navbar-nav .nav-item .nav-link {
+    color: white;
+    padding: 0 30px 15px 30px;
+    font-size: 18px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .header .header__nav .navbar-nav .nav-item::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b85d), to(#eb7633));
+    background: linear-gradient(to right, #f8b85d, #eb7633);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .header .header__nav .navbar-nav .nav-item:hover::after {
+    width: 100%;
+  }
+  .header .header__nav .navbar-nav .nav-item:active::after {
+    width: 100%;
+  }
+  .header .header__nav .navbar-nav .active {
+    color: yellow !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background: black;
+    width: 100%;
+    opacity: 0.8;
+  }
+  .header .header_account {
+    margin-top: 10px;
+  }
+  .header .header_account .account_detail {
+    background-color: transparent;
+    border: 1px solid #eb7633;
+    color: wheat;
+  }
+  .header .header_account .account_detail:focus {
+    background-color: transparent;
+    outline: none;
+  }
+  .header .header_account .account_detail:active {
+    background-color: transparent;
+    outline: none;
+  }
+  .header .header_account .acount_logout:focus {
+    background-color: #eb7633;
+  }
+  .header .header_account .account_icon {
+    margin-right: 10px;
+  }
+  .header .header__nav .navbar-nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    -webkit-transition: all 0.5;
+    transition: all 0.5;
+    width: 800px;
+  }
+  .header .header__nav .navbar-nav .nav-item .nav-link {
+    color: white;
+    padding: 0 0 15px 0;
+    font-size: 18px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 10px;
+    width: 50%;
+    margin-right: 0;
+  }
+  .header .header__nav .navbar-nav .nav-item::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b85d), to(#eb7633));
+    background: linear-gradient(to right, #f8b85d, #eb7633);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .header .header__nav .navbar-nav .nav-item:hover::after {
+    width: 40%;
+  }
+  .header .header__nav .navbar-nav .nav-item:active::after {
+    width: 40%;
+  }
+  .header .header__nav .navbar-nav .active {
+    color: yellow !important;
+  }
+}
+/*# sourceMappingURL=header.css.map */

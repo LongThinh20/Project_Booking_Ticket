@@ -1,0 +1,22 @@
+@import '../Helpers/mixin';
+@import '../Helpers/variables';
+
+.button_Cinema{
+    height: 35px;
+    width: 80px;
+    text-align:center;
+    line-height: 35px;
+    display: inline-block;
+    border: 1px solid $color-orange;
+    background-color: transparent;
+    @include styleText($color-orange,$fs-3,$fw-normal);
+    &:hover{
+        background-color: #eb7633;
+        color: white;
+    }
+    &:focus{
+       outline: none;
+       box-shadow: none;
+    }
+}
+

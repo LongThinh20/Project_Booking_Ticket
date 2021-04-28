@@ -1,0 +1,53 @@
+.seatBooking {
+  height: 28px;
+  width: 28px;
+  margin: 5px;
+  text-align: center;
+  background: #e1e1e1;
+  color: transparent;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  position: relative;
+  color: white;
+  cursor: no-drop !important;
+}
+.seatBooking:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .seatBooking {
+    height: 28px;
+    width: 28px;
+    margin: 2px;
+    text-align: center;
+    background: #e1e1e1;
+    color: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    position: relative;
+    color: white;
+    cursor: no-drop !important;
+  }
+  .seatBooking:focus {
+    outline: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .seatBooking {
+    height: 28px;
+    width: 28px;
+    margin: 2px;
+    text-align: center;
+    background: #e1e1e1;
+    color: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    position: relative;
+    color: white;
+    cursor: no-drop !important;
+  }
+  .seatBooking:focus {
+    outline: none;
+  }
+}

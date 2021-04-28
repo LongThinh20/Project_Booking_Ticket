@@ -1,0 +1,176 @@
+.text_Form_Title {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.text_Orange {
+  color: #eb7633;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text_Green {
+  color: #009e00;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text_Normal {
+  color: #7e7e7e;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.text-title {
+  color: #eb7633;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.text-title::after {
+  content: " ";
+  width: 160px;
+  height: 3px;
+  background: -webkit-gradient(linear, left top, right top, from(#f8b85d), to(#eb7633));
+  background: linear-gradient(to right, #f8b85d, #eb7633);
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+}
+
+.button_Cinema {
+  height: 35px;
+  width: 70px;
+  text-align: center;
+  line-height: 35px;
+  display: inline-block;
+  border: 1px solid #eb7633;
+  background-color: transparent;
+  color: #eb7633;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.button_Cinema:hover {
+  background-color: #eb7633;
+  color: white;
+}
+
+.Cinema_Icon {
+  height: 50px;
+  width: 50px;
+}
+
+.buttom_Form {
+  height: 35px;
+  width: 100%;
+  text-align: center;
+  line-height: 35px;
+  display: inline-block;
+  background-color: #f8b85d;
+  border: 1px solid #eb7633;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.buttom_Form:hover {
+  background-color: #eb7633;
+}
+
+.buttom_Form:focus {
+  border: 1px solid #eb7633;
+}
+
+.seat {
+  height: 27px;
+  width: 33px;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#3e515d));
+  background: linear-gradient(to bottom, #333, #3e515d);
+  color: transparent;
+  border: 1px solid #3e515d;
+  border-radius: 8px 5px 5px;
+  position: relative;
+}
+
+.seat::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background: #3e515d;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.856);
+  top: -3px;
+  left: 3px;
+}
+
+.seat:focus {
+  outline: none;
+}
+
+.seatSel {
+  height: 27px;
+  width: 33px;
+  text-align: center;
+  background: #009e00;
+  color: transparent;
+  border: 1px solid #009e00;
+  border-radius: 8px 5px 5px;
+  position: relative;
+  color: white;
+}
+
+.seatSel::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background: transparent;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.856);
+  top: -3px;
+  left: 3px;
+  color: white;
+}
+
+.seatSel:focus {
+  outline: none;
+}
+
+.seatVip {
+  height: 27px;
+  width: 33px;
+  text-align: center;
+  background: #f8b85d;
+  color: transparent;
+  border: 1px solid #f8b85d;
+  border-radius: 8px 5px 5px;
+  position: relative;
+  color: white;
+}
+
+.seatVip::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background: #f8b85d;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.856);
+  top: -3px;
+  left: 3px;
+  color: #f8b85d;
+}
+
+.seatVip:focus {
+  outline: none;
+}
+/*# sourceMappingURL=title.css.map */

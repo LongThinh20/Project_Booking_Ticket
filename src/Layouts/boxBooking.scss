@@ -1,0 +1,66 @@
+@import "../Sass/Helpers/mixin";
+@import "../Sass/Helpers/variables";
+
+.boxBooking {
+  height: 350px;
+  width: 400px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  top: 30%;
+  right: 5%;
+  z-index: 100;
+  h3 {
+    background-color: $color-orange;
+    color: white;
+    padding: 10px;
+  }
+  .box_title {
+    li {
+      @include styleText(white, 15px, $fw-bold);
+
+      a {
+        color: white;
+        &:active {
+          background-color: transparent;
+        }
+        &:hover {
+          border: none;
+        }
+      }
+      .active {
+        background-color: transparent;
+        color: $color-orange;
+        border: none;
+        border-bottom: 1xp solid $color-yellow;
+      }
+    }
+    border: none;
+  }
+  .box_content {
+    .box_item {
+      margin-bottom: 20px;
+      border-radius: 0;
+      option {
+        &:hover {
+          background-color: $color-yellow;
+        }
+      }
+    }
+  }
+  .btn_Booking {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 5px 20px;
+    @include styleText(white, 15px, $fw-normal);
+    background-color: $color-orange;
+    border-radius: 0;
+  }
+}
+
+@include responsive("md") {
+  .boxBooking {
+    display: none;
+  }
+}

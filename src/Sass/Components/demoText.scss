@@ -1,0 +1,128 @@
+@import "../Helpers/mixin";
+@import "../Helpers/variables";
+
+.demoText {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 3px;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    $color-orange,
+    $color-yellow,
+    $color-orange
+  );
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 4s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -300%;
+  }
+
+  100% {
+    background-position: 300%;
+  }
+}
+
+@include responsive("lg") {
+  .demoText {
+    width: 500px;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+    overflow: hidden;
+    background: linear-gradient(
+      90deg,
+      $color-orange,
+      $color-yellow,
+      $color-orange
+    );
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -300%;
+    }
+
+    100% {
+      background-position: 300%;
+    }
+  }
+}
+@include responsive("md") {
+  .demoText {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+    overflow: hidden;
+    background: linear-gradient(
+      90deg,
+      $color-orange,
+      $color-yellow,
+      $color-orange
+    );
+    background-repeat: no-repeat;
+    background-size: 90%;
+    animation: animate 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -400%;
+    }
+
+    100% {
+      background-position: 400%;
+    }
+  }
+}
+@include responsive("sm") {
+  .demoText {
+    width: 350px;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 3px;
+    overflow: hidden;
+    background: linear-gradient(
+      90deg,
+      $color-orange,
+      $color-yellow,
+      $color-orange
+    );
+    background-repeat: no-repeat;
+    background-size: 90%;
+    animation: animate 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -400%;
+    }
+
+    100% {
+      background-position: 400%;
+    }
+  }
+}

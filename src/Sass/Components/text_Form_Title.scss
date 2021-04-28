@@ -1,0 +1,9 @@
+
+@import '../Helpers/mixin';
+@import '../Helpers/variables';
+
+.text_Form_Title{
+    @include  styleText($color-black-1,16px,$fw-bold-1);
+    line-height: 25px;
+    
+}

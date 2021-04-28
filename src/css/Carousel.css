@@ -1,0 +1,97 @@
+.movieCarousel #movieSlider .carousel-indicators {
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.movieCarousel #movieSlider .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 1;
+  background-clip: border-box;
+}
+
+.movieCarousel #movieSlider .carousel-indicators .active {
+  background-color: white;
+}
+
+.movieCarousel #movieSlider .carousel-inner .carousel-item {
+  height: 800px;
+}
+
+.movieCarousel #movieSlider .carousel-inner .img-1 {
+  background-image: url(../img/panel_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.movieCarousel #movieSlider .carousel-inner .img-2 {
+  background-image: url(../img/panel_1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.movieCarousel #movieSlider .carousel-inner .img-3 {
+  background-image: url(../img/panel_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.movieCarousel #movieSlider .carousel-control-next-icon,
+.movieCarousel #movieSlider .carousel-control-prev-icon {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .movieCarousel #movieSlider .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    opacity: 1;
+    background-clip: border-box;
+  }
+  .movieCarousel #movieSlider .carousel-indicators .active {
+    background-color: white;
+  }
+  .movieCarousel #movieSlider .carousel-inner .carousel-item {
+    height: 600px;
+  }
+  .movieCarousel #movieSlider .carousel-inner .img-1 {
+    background-image: url(../img/panel_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .movieCarousel #movieSlider .carousel-inner .img-2 {
+    background-image: url(../img/panel_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .movieCarousel #movieSlider .carousel-inner .img-3 {
+    background-image: url(../img/panel_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .movieCarousel #movieSlider .carousel-control-next-icon,
+  .movieCarousel #movieSlider .carousel-control-prev-icon {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .movieCarousel {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Carousel.css.map */

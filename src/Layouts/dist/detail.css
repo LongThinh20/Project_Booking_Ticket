@@ -1,0 +1,200 @@
+.detail {
+  position: relative;
+  padding: 200px 0 100px 0;
+  min-height: 800px;
+}
+.detail .left_content img {
+  height: 300px;
+  width: 200px;
+}
+.detail .right_content {
+  color: white;
+}
+.detail .right_content h1 {
+  letter-spacing: 5px;
+  color: white;
+}
+.detail .right_content .rating_Star i {
+  color: orange;
+  padding-right: 5px;
+  font-size: 15px;
+}
+.detail .right_content .rating_Star span {
+  width: 50px;
+  height: 50px;
+  border-left: 1px dotted #eb7633;
+  color: greenyellow;
+  font-size: 25px;
+}
+.detail .right_content .description {
+  color: #e9e9e9;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: italic;
+}
+.detail .right_content .button_Cinema {
+  width: 100px;
+  height: 45px;
+}
+.detail .center_content {
+  position: relative;
+  margin-top: 50px;
+}
+.detail .center_content h3 {
+  color: #eb7633;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.detail .center_content h3::after {
+  content: " ";
+  width: 160px;
+  height: 2px;
+  background: linear-gradient(to right, #f8b85d, #eb7633);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+.detail .center_content ul li {
+  margin-right: 20px;
+}
+.detail .center_content ul li .active {
+  background-color: rgba(248, 184, 93, 0.5);
+  border-color: #eb7633;
+}
+.detail .center_content ul li a {
+  color: #f8b85d;
+}
+.detail .center_content .logo_detail ul {
+  margin: auto;
+}
+.detail .center_content .content_showTime {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 20px;
+}
+.detail .center_content .content_showTime h3 {
+  color: #eb7633;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.detail .center_content .content_showTime h3::after {
+  content: " ";
+  width: 500px;
+  height: 2px;
+  background: linear-gradient(to right, #f8b85d, #eb7633);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .detail {
+    position: relative;
+    padding: 200px 0 100px 0;
+    min-height: 800px;
+  }
+  .detail .left_content .button_Trailer {
+    left: 0;
+  }
+  .detail .left_content .detail_Img {
+    max-height: 700px;
+    overflow: hidden;
+  }
+  .detail .left_content .detail_Img img {
+    height: 100%;
+    width: 100%;
+  }
+  .detail .right_content {
+    color: white;
+  }
+  .detail .right_content h1 {
+    letter-spacing: 5px;
+    color: white;
+  }
+  .detail .right_content .rating_Star i {
+    color: orange;
+    padding-right: 5px;
+    font-size: 15px;
+  }
+  .detail .right_content .rating_Star span {
+    width: 50px;
+    height: 50px;
+    border-left: 1px dotted #eb7633;
+    color: greenyellow;
+    font-size: 25px;
+  }
+  .detail .right_content .description {
+    color: #e9e9e9;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: italic;
+  }
+  .detail .right_content .button_Cinema {
+    width: 100px;
+    height: 45px;
+  }
+  .detail .center_content {
+    position: relative;
+    margin-top: 50px;
+  }
+  .detail .center_content h3 {
+    color: #eb7633;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .detail .center_content h3::after {
+    content: " ";
+    width: 160px;
+    height: 2px;
+    background: linear-gradient(to right, #f8b85d, #eb7633);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+  }
+  .detail .center_content ul li {
+    margin-right: 20px;
+  }
+  .detail .center_content ul li .active {
+    background-color: rgba(248, 184, 93, 0.5);
+    border-color: #eb7633;
+  }
+  .detail .center_content ul li a {
+    color: #f8b85d;
+  }
+  .detail .center_content .logo_detail ul {
+    margin: auto;
+  }
+  .detail .center_content .content_showTime {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+  }
+  .detail .center_content .content_showTime h3 {
+    color: #eb7633;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .detail .center_content .content_showTime h3::after {
+    content: " ";
+    width: 300px;
+    height: 2px;
+    background: linear-gradient(to right, #f8b85d, #eb7633);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+  }
+}

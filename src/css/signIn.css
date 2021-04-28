@@ -1,0 +1,63 @@
+.signIn {
+  padding: 200px 0;
+  max-height: 800px;
+  background-color: #222;
+}
+
+.signIn .signIn_Content {
+  width: 30%;
+  margin: auto;
+  color: white;
+}
+
+.signIn .signIn_Content h1 {
+  color: #eb7633;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.signIn .signIn_Content h1::after {
+  content: " ";
+  width: 200px;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(#f8b85d), to(#eb7633));
+  background: linear-gradient(to right, #f8b85d, #eb7633);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .signIn {
+    padding: 180px 0;
+    height: 800px;
+    background-color: #222;
+  }
+  .signIn .signIn_Content {
+    width: 40%;
+    margin: auto;
+    color: white;
+  }
+  .signIn .signIn_Content h1 {
+    color: #eb7633;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .signIn .signIn_Content h1::after {
+    content: " ";
+    width: 200px;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b85d), to(#eb7633));
+    background: linear-gradient(to right, #f8b85d, #eb7633);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+  }
+}
+/*# sourceMappingURL=signIn.css.map */

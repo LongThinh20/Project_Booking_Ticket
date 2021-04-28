@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,YAAY,CAAC;ECAT,KAAK,ECWM,OAAO;EDVlB,SAAS,EDAuB,IAAI;ECCpC,WAAW,ECiDL,IAAI;CFjDb;;ACgDG,MAAM,CAAE,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;ED7C7D,AAAA,YAAY,CAAC;ICLX,KAAK,ECWM,OAAO;IDVlB,SAAS,EDKyB,IAAI;ICJtC,WAAW,ECiDL,IAAI;GF5CX",
+    "sources": [
+        "../Components/text_Orange.scss",
+        "../Helpers/_mixin.scss",
+        "../Helpers/_variables.scss",
+        "../Helpers/_variables.scss"
+    ],
+    "names": [],
+    "file": "text_Orange.css"
+}

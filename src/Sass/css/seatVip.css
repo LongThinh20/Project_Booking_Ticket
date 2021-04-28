@@ -1,0 +1,72 @@
+.seatVip {
+  height: 25px;
+  width: 28px;
+  text-align: center;
+  background: #f8b85d;
+  color: transparent;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  position: relative;
+  color: white;
+}
+
+.seatVip::before {
+  content: "";
+  width: 21px;
+  height: 23px;
+  position: absolute;
+  background: #f8b85d;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.856);
+  top: -4px;
+  left: 2px;
+  color: #f8b85d;
+}
+
+.seatVip:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .seatVip {
+    height: 25px;
+    width: 28px;
+    text-align: center;
+    background: #f8b85d;
+    color: transparent;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    position: relative;
+    color: white;
+  }
+  .seatVip::before {
+    content: "";
+    width: 21px;
+    height: 23px;
+    position: absolute;
+    background: #f8b85d;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.856);
+    top: -4px;
+    left: 2px;
+    color: #f8b85d;
+  }
+  .seatVip:focus {
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .seatVip {
+    height: 25px;
+    width: 28px;
+    text-align: center;
+    background: #f8b85d;
+    color: transparent;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    position: relative;
+    color: white;
+  }
+}
+/*# sourceMappingURL=seatVip.css.map */

@@ -1,0 +1,57 @@
+@import "../Helpers/mixin";
+@import "../Helpers/variables";
+
+.seatBooking {
+  height: 28px;
+  width: 28px;
+  margin: 5px;
+  text-align: center;
+  background: $color-gray-1;
+  color: transparent;
+  border: 1px solid $color-gray-1;
+  border-radius: 5px;
+  position: relative;
+  color: white;
+  cursor: no-drop !important;
+  &:focus {
+    outline: none;
+  }
+}
+
+@include reponsive_min_max(577px,767px){
+  .seatBooking {
+    height: 28px;
+    width: 28px;
+    margin: 2px;
+    text-align: center;
+    background: $color-gray-1;
+    color: transparent;
+    border: 1px solid $color-gray-1;
+    border-radius: 5px;
+    position: relative;
+    color: white;
+    cursor: no-drop !important;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@include responsive("sm"){
+    .seatBooking {
+        height: 28px;
+        width: 28px;
+        margin: 2px;
+        text-align: center;
+        background: $color-gray-1;
+        color: transparent;
+        border: 1px solid $color-gray-1;
+        border-radius: 5px;
+        position: relative;
+        color: white;
+        cursor: no-drop !important;
+        &:focus {
+          outline: none;
+        }
+      }
+}

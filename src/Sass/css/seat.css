@@ -1,0 +1,106 @@
+.seat {
+  height: 25px;
+  width: 28px;
+  margin: 5px;
+  text-align: center;
+  background: #3e515d;
+  color: transparent;
+  border: 1px solid #3e515d;
+  border-radius: 7px;
+  position: relative;
+  color: white;
+  font-size: 12px;
+}
+
+.seat::before {
+  content: "";
+  width: 21px;
+  height: 23px;
+  position: absolute;
+  background: #3e515d;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.856);
+  top: -4px;
+  left: 2px;
+}
+
+.seat:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .seat {
+    height: 25px;
+    width: 28px;
+    margin: 2px;
+    text-align: center;
+    background: #3e515d;
+    color: transparent;
+    border: 1px solid #3e515d;
+    border-radius: 7px;
+    position: relative;
+    color: white;
+    font-size: 12px;
+  }
+  .seat::before {
+    content: "";
+    width: 21px;
+    height: 23px;
+    position: absolute;
+    background: #3e515d;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.856);
+    top: -4px;
+    left: 2px;
+  }
+  .seat:focus {
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .seat {
+    height: 25px;
+    width: 28px;
+    margin: 2px;
+    text-align: center;
+    background: #3e515d;
+    color: transparent;
+    border: 1px solid #3e515d;
+    border-radius: 7px;
+    position: relative;
+    color: white;
+    font-size: 12px;
+  }
+  .seat::before {
+    content: "";
+    width: 21px;
+    height: 23px;
+    position: absolute;
+    background: #3e515d;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.856);
+    top: -4px;
+    left: 2px;
+  }
+  .seat:focus {
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .seat {
+    height: 25px;
+    width: 28px;
+    margin: 2px;
+    text-align: center;
+    background: #3e515d;
+    color: transparent;
+    border: 1px solid #3e515d;
+    border-radius: 7px;
+    position: relative;
+    color: white;
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=seat.css.map */

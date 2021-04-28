@@ -1,0 +1,25 @@
+@import "../Sass/Helpers/mixin";
+@import "../Sass/Helpers/variables";
+
+.pageNotFound {
+  background-image: url(../img/404-page-not-found.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  min-height: 800px;
+  position: relative;
+  .btn_home{
+      background-color: $color-orange;
+      color: white;
+      border-radius: 3px;
+      padding: 10px;
+      &:hover{
+          background-color: $color-yellow;
+      }
+      position: absolute;
+      left: 50%;
+      bottom: 20%;
+      transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,203 @@
+@import "../Sass/Helpers/mixin";
+@import "../Sass/Helpers/variables";
+
+.detail {
+  position: relative;
+  padding: 200px 0 100px 0;
+  min-height: 800px;
+
+  .left_content {
+    img {
+      height: 300px;
+      width: 200px;
+    }
+  }
+  .right_content {
+    color: white;
+
+    h1 {
+      letter-spacing: 5px;
+      color: white;
+    }
+
+    .rating {
+      i {
+        color: $color-yellow;
+        font-size: 20px;
+        padding: 5px;
+      }
+      .rating_Value {
+        position: relative;
+        display: inline-block;
+        font-size: 20px;
+        width: 70px;
+        .rating_View {
+          @include styleText($color-gray-0, 15px, $fw-normal);
+          position: absolute;
+          top: 25px;
+          left: 0;
+        }
+      }
+      .ant-rate {
+        display: inline-block;
+      }
+      .rating_Btn {
+        background: $color-orange;
+        @include styleText(white, 15px, $fw-normal);
+        margin-right: 5px;
+        &:hover {
+          background-color: $color-yellow;
+        }
+        &:focus {
+          outline: none;
+          box-shadow: none;
+        }
+      }
+      .rating_Btn:focus + .ant-rate {
+        display: inline-block;
+      }
+    }
+    .description {
+      @include styleText($color-gray-3, $fs-1, $fw-normal);
+      font-style: italic;
+    }
+  }
+
+  .center_content {
+    position: relative;
+
+    margin-top: 50px;
+
+    h3 {
+      @include styleTextTile(20px, 160px);
+    }
+
+    ul {
+      li {
+        margin-right: 20px;
+
+        .active {
+          background-color: rgba(248, 184, 93, 0.5);
+          border-color: $color-orange;
+        }
+
+        a {
+          color: $color-yellow;
+        }
+      }
+    }
+
+    .logo_detail {
+      ul {
+        margin: auto;
+      }
+    }
+
+    .content_showTime {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+      padding: 30px;
+      margin-top: 20px;
+      h3 {
+        @include styleTextTile(20px, 500px);
+      }
+    }
+  }
+}
+
+@include responsive("md") {
+  .detail {
+    position: relative;
+    padding: 200px 0 100px 0;
+    min-height: 800px;
+
+    .left_content {
+      .button_Trailer {
+        left: 0;
+      }
+      .detail_Img {
+        max-height: 700px;
+        overflow: hidden;
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    .right_content {
+      color: white;
+
+      h1 {
+        letter-spacing: 5px;
+        color: white;
+      }
+
+      .rating_Star {
+        i {
+          color: orange;
+          padding-right: 5px;
+          font-size: 15px;
+        }
+
+        span {
+          width: 50px;
+          height: 50px;
+          border-left: 1px dotted $color-orange;
+          color: greenyellow;
+          font-size: 25px;
+        }
+      }
+
+      .description {
+        @include styleText($color-gray-3, $fs-1, $fw-normal);
+        font-style: italic;
+      }
+
+      .button_Cinema {
+        width: 100px;
+        height: 45px;
+      }
+    }
+
+    .center_content {
+      position: relative;
+
+      margin-top: 50px;
+
+      h3 {
+        @include styleTextTile(20px, 160px);
+      }
+
+      ul {
+        li {
+          margin-right: 20px;
+
+          .active {
+            background-color: rgba(248, 184, 93, 0.5);
+            border-color: $color-orange;
+          }
+
+          a {
+            color: $color-yellow;
+          }
+        }
+      }
+
+      .logo_detail {
+        ul {
+          margin: auto;
+        }
+      }
+
+      .content_showTime {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+        padding: 30px;
+        margin-top: 20px;
+        h3 {
+          @include styleTextTile(18px, 300px);
+        }
+      }
+    }
+  }
+}

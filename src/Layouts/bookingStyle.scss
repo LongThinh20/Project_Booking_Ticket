@@ -1,0 +1,279 @@
+@import "../Sass/Helpers/mixin";
+@import "../Sass/Helpers/variables";
+
+.seatList {
+  ._countDown {
+    margin-top: 50px;
+  }
+  .seatList_detail {
+    background: url(../img/screen.png);
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+
+  .custom{
+    width: 80%;
+    margin: auto;
+  }
+    .contentBottom {
+      padding-top: 30px;
+      .row {
+        margin: auto;
+        width: 60%;
+        .col {
+          max-width: 100px;
+          .label {
+            @include styleText($color-gray-2, 12px, $fw-normal);
+          }
+        }
+      }
+    }
+  }
+  .payList_detail {
+    .contentRight {
+      box-shadow: 5px 10px 8px #888888;
+      margin-bottom: 50px;
+      .totalCost {
+        @include styleText($color-black-0, 60px, $fw-bold);
+        text-align: center;
+      }
+
+      .bookingEdit {
+        @include styleText(white, 30px, $fw-normal);
+        line-height: 50px;
+        height: 50px;
+      }
+
+      .discountInput {
+        label {
+          margin: 0;
+        }
+
+        input {
+          border: none;
+          padding: 0;
+
+          &:focus {
+            outline: none;
+            box-shadow: none;
+          }
+        }
+      }
+      .payMents {
+        label {
+          line-height: 35px;
+
+          .form-check-input {
+            height: 20px;
+            width: 20px;
+            margin-top: 8px;
+            &:active {
+              color: $color-orange;
+            }
+          }
+        }
+        .ATM_content {
+          button {
+            border: 1px solid $color-gray-1;
+            background-color: transparent;
+            width: 60px;
+            height: 50px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            &:focus {
+              outline: none;
+              border-color: $color-orange;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include reponsive_min_max(576px, 767px) {
+  .seatList {
+    ._countDown {
+      margin-top: 50px;
+    }
+    .seatList_detail {
+      background: url(../img/screen.png);
+      height: 100%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding: 50px 0;
+    
+
+      .contentBottom {
+        padding-top: 30px;
+        .row {
+          margin: auto;
+          width: 70%;
+          .col {
+            max-width: 100px;
+            .label {
+              @include styleText($color-gray-2, 12px, $fw-normal);
+            }
+          }
+        }
+      }
+    }
+    .payList_detail {
+      .contentRight {
+        box-shadow: 5px 10px 8px #888888;
+        margin-bottom: 50px;
+        .totalCost {
+          @include styleText($color-black-0, 60px, $fw-bold);
+          text-align: center;
+        }
+
+        .bookingEdit {
+          @include styleText(white, 30px, $fw-normal);
+          line-height: 50px;
+          height: 50px;
+        }
+
+        .discountInput {
+          label {
+            margin: 0;
+          }
+
+          input {
+            border: none;
+            padding: 0;
+
+            &:focus {
+              outline: none;
+              box-shadow: none;
+            }
+          }
+        }
+        .payMents {
+          label {
+            line-height: 35px;
+
+            .form-check-input {
+              height: 20px;
+              width: 20px;
+              margin-top: 8px;
+              &:active {
+                color: $color-orange;
+              }
+            }
+          }
+          .ATM_content {
+            button {
+              border: 1px solid $color-gray-1;
+              background-color: transparent;
+              width: 60px;
+              height: 50px;
+              margin-right: 5px;
+              margin-bottom: 5px;
+              &:focus {
+                outline: none;
+                border-color: $color-orange;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include responsive("xs") {
+  .seatList {
+    ._countDown {
+      margin-top: 50px;
+    }
+    .seatList_detail {
+      border: 10px solid $color-black-0;
+      background: url(../img/screen.png);
+      height: 100%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding: 50px 0;
+      min-width: 700px;
+      overflow-x: auto;
+      overflow-y: hidden;
+    
+
+      .contentBottom {
+        padding-top: 30px;
+        .row {
+          margin: auto;
+          width: 90%;
+          .col {
+            max-width: 100px;
+            .label {
+              @include styleText($color-gray-2, 12px, $fw-normal);
+            }
+          }
+        }
+      }
+    }
+    .payList_detail {
+      .contentRight {
+        width: 150%;
+        margin: auto;
+        box-shadow: 5px 10px 8px #888888;
+        margin-bottom: 50px;
+        .totalCost {
+          @include styleText($color-black-0, 60px, $fw-bold);
+          text-align: center;
+        }
+
+        .bookingEdit {
+          @include styleText(white, 30px, $fw-normal);
+          line-height: 50px;
+          height: 50px;
+        }
+
+        .discountInput {
+          label {
+            margin: 0;
+          }
+
+          input {
+            border: none;
+            padding: 0;
+
+            &:focus {
+              outline: none;
+              box-shadow: none;
+            }
+          }
+        }
+        .payMents {
+          label {
+            line-height: 35px;
+
+            .form-check-input {
+              height: 20px;
+              width: 20px;
+              margin-top: 8px;
+              &:active {
+                color: $color-orange;
+              }
+            }
+          }
+          .ATM_content {
+            button {
+              border: 1px solid $color-gray-1;
+              background-color: transparent;
+              width: 60px;
+              height: 50px;
+              margin-right: 5px;
+              margin-bottom: 5px;
+              &:focus {
+                outline: none;
+                border-color: $color-orange;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

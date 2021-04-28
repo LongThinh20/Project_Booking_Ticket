@@ -1,0 +1,74 @@
+@import "../Helpers/mixin";
+@import "../Helpers/variables";
+
+.button_ShowTime {
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  line-height: 35px;
+  display: inline-block;
+  border: 1px solid $color-gray-3;
+  background-color: rgba(245, 245, 245, 0.7);
+  border-radius: 5px;
+
+  @include styleText($color-orange, $fs-3, $fw-normal);
+  &:hover {
+    background-color: $color-yellow;
+    color: white;
+    text-decoration: none;
+    border-color: $color-orange;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+@include reponsive_min_max(576px, 767px) {
+  .button_ShowTime {
+    height: 35px;
+    width: 140px;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    border: 1px solid $color-gray-3;
+    background-color: rgba(245, 245, 245, 0.7);
+    border-radius: 5px;
+
+    @include styleText($color-orange, $fs-3, $fw-normal);
+    &:hover {
+      background-color: $color-yellow;
+      color: white;
+      text-decoration: none;
+      border-color: $color-orange;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+@include reponsive_min_max(360px, 575px) {
+    .button_ShowTime {
+      height: 35px;
+      width: 130px;
+      text-align: center;
+      line-height: 35px;
+      display: inline-block;
+      border: 1px solid $color-gray-3;
+      background-color: rgba(245, 245, 245, 0.7);
+      border-radius: 5px;
+  
+      @include styleText($color-orange, $fs-3, $fw-normal);
+      &:hover {
+        background-color: $color-yellow;
+        color: white;
+        text-decoration: none;
+        border-color: $color-orange;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+  

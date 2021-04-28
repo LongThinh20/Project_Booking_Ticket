@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,YAAY,CAAC;EACX,OAAO,EAAE,MAAM;CAChB",
+    "sources": [
+        "../Layouts/userManager.scss",
+        "../Sass/Helpers/_mixin.scss",
+        "../Sass/Helpers/_variables.scss",
+        "../Sass/Helpers/_variables.scss"
+    ],
+    "names": [],
+    "file": "userManager.css"
+}

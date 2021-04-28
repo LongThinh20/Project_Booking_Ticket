@@ -1,0 +1,56 @@
+.header {
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  width: 100%;
+  opacity: 0.8;
+}
+.header .header_account .account_detail {
+  background-color: transparent;
+  border: 1px solid #eb7633;
+  color: wheat;
+  margin-top: -20px;
+}
+.header .header_account .account_detail:focus {
+  background-color: transparent;
+  outline: none;
+}
+.header .header_account .account_detail:active {
+  background-color: transparent;
+  outline: none;
+}
+.header .header_account .acount_logout:focus {
+  background-color: #eb7633;
+}
+.header .header_account .account_icon {
+  font-size: 40px;
+}
+.header .header__nav .navbar-nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.5;
+}
+.header .header__nav .navbar-nav .nav-item .nav-link {
+  color: white;
+  padding: 0 30px 15px 30px;
+  font-size: 18px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.header .header__nav .navbar-nav .nav-item::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  display: block;
+  background: linear-gradient(to right, #f8b85d, #eb7633);
+  transition: all 0.3s;
+}
+.header .header__nav .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+.header .header__nav .navbar-nav .nav-item:active::after {
+  width: 100%;
+}
+.header .header__nav .navbar-nav .active {
+  color: yellow !important;
+}
