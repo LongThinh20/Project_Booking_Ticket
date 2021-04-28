@@ -1,0 +1,143 @@
+@import "../Sass/Helpers/mixin";
+@import "../Sass/Helpers/variables";
+
+footer {
+  background-color: $color-black-bg;
+
+  width: 100%;
+  z-index: 100;
+  color: white;
+  padding: 75px 0 0;
+  font-size: 14px;
+  font-weight: 500;
+
+  .footer__content {
+    margin: 0 auto;
+
+    .footer__items {
+      a {
+        color: white;
+        text-decoration: none;
+        transition: all 0.5s;
+        i {
+          color: #4a4a4a;
+        }
+        display: inline-block;
+        margin-right: 10px;
+        &:hover {
+          i {
+            color: #f8b85d;
+          }
+        }
+      }
+      h6 {
+        font-size: 14px;
+        letter-spacing: 2px;
+        color: #ec7532;
+        padding: 0 0 20px;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+          display: list-item;
+
+          a {
+            color: white;
+            text-decoration: none;
+            transition: all 0.5s;
+            font-size: 13px;
+            font-style: normal;
+
+            i {
+              color: #4a4a4a;
+            }
+          }
+          &:hover a {
+            color: #f8b85d;
+          }
+
+          &:hover a {
+            i {
+              color: #f8b85d;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include responsive("sm") {
+  footer {
+    background-color: $color-black-bg;
+
+    width: 100%;
+    z-index: 100;
+    color: white;
+    padding: 50px 0 50px 0;
+    font-size: 14px;
+    font-weight: 500;
+
+    .footer__content {
+      margin: 0 auto;
+
+      .footer__items {
+        a {
+          color: white;
+          text-decoration: none;
+          transition: all 0.5s;
+          i {
+            color: #4a4a4a;
+          }
+          display: inline-block;
+          margin-right: 10px;
+          &:hover {
+            i {
+              color: #f8b85d;
+            }
+          }
+        }
+        h6 {
+          font-size: 14px;
+          letter-spacing: 2px;
+          color: #ec7532;
+          padding: 0 0 20px;
+          display: none;
+        }
+
+        ul {
+          list-style: none;
+          padding-left: 0;
+
+          li {
+            display: list-item;
+            border-bottom: 1px solid $color-gray-2;
+            a {
+              color: white;
+              text-decoration: none;
+              transition: all 0.5s;
+              font-size: 13px;
+              font-style: normal;
+
+              i {
+                color: #4a4a4a;
+              }
+            }
+            &:hover a {
+              color: #f8b85d;
+            }
+
+            &:hover a {
+              i {
+                color: #f8b85d;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

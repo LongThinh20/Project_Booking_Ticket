@@ -1,0 +1,37 @@
+@import '../Sass/Helpers/mixin';
+@import '../Sass/Helpers/variables';
+
+.signIn {
+  
+    padding: 200px 0;
+    min-height: 800px;
+    background-color: $color-black-bg;
+
+    .signIn_Content {
+        width: 30%;
+        margin: auto;
+        color: white;
+
+        h1 {
+            @include styleTextTile(25px,200px)
+        }
+    }
+}
+@include responsive("xl"){
+    .signIn {
+  
+        padding: 180px 0;
+        height: 800px;
+        background-color: $color-black-bg;
+    
+        .signIn_Content {
+            width: 40%;
+            margin: auto;
+            color: white;
+    
+            h1 {
+                @include styleTextTile(25px,200px)
+            }
+        }
+    }
+}

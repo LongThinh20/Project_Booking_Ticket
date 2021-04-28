@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,YAAY,CAAA;ECDR,KAAK,ECCM,OAAO;EDAlB,SAAS,EDCyB,IAAI;ECAtC,WAAW,EC8CH,MAAM;CF7CjB",
+    "sources": [
+        "../Components/text_Normal.scss",
+        "../Helpers/_mixin.scss",
+        "../Helpers/_variables.scss",
+        "../Helpers/_variables.scss"
+    ],
+    "names": [],
+    "file": "text_Normal.css"
+}

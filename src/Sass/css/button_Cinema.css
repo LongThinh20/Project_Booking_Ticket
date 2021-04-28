@@ -1,0 +1,24 @@
+.button_Cinema {
+  height: 35px;
+  width: 80px;
+  text-align: center;
+  line-height: 35px;
+  display: inline-block;
+  border: 1px solid #eb7633;
+  background-color: transparent;
+  color: #eb7633;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.button_Cinema:hover {
+  background-color: #eb7633;
+  color: white;
+}
+
+.button_Cinema:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=button_Cinema.css.map */

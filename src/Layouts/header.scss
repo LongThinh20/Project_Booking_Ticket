@@ -1,0 +1,237 @@
+@import "../Sass/Helpers/mixin";
+@import "../Sass/Helpers/variables";
+
+.header {
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  width: 100%;
+  opacity: 0.8;
+
+  .header_account {
+    margin-top: 10px;
+    .account_detail {
+      background-color: transparent;
+      border: 1px solid $color-orange;
+      color: wheat;
+
+      &:focus {
+        background-color: transparent;
+        outline: none;
+      }
+
+      &:active {
+        background-color: transparent;
+        outline: none;
+      }
+    }
+    .acount_logout {
+      &:focus {
+        background-color: $color-orange;
+      }
+    }
+
+    .account_icon {
+      margin-right: 10px;
+    }
+  }
+
+  .header__nav {
+  
+    .navbar-nav {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      transition: all 0.5;
+      margin: auto;
+
+      .nav-item {
+        .nav-link {
+          color: white;
+          padding: 10px 25px 10px 25px;
+          font-size: 18px;
+          border-right: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        &::after {
+          content: "";
+          width: 0;
+          height: 2px;
+          display: block;
+          background: linear-gradient(to right, $color-yellow, $color-orange);
+          transition: all 0.3s;
+        }
+
+        &:hover::after {
+          width: 100%;
+        }
+
+        &:active::after {
+          width: 100%;
+        }
+      }
+
+      .active {
+        color: yellow !important;
+      }
+    }
+  }
+}
+
+@include responsive("xl") {
+  .header {
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    width: 100%;
+    opacity: 0.8;
+
+    .header_account {
+      margin-top: 10px;
+      .account_detail {
+        background-color: transparent;
+        border: 1px solid $color-orange;
+        color: wheat;
+
+        &:focus {
+          background-color: transparent;
+          outline: none;
+        }
+
+        &:active {
+          background-color: transparent;
+          outline: none;
+        }
+      }
+      .acount_logout {
+        &:focus {
+          background-color: $color-orange;
+        }
+      }
+
+      .account_icon {
+        margin-right: 10px;
+      }
+    }
+
+    .header__nav {
+      .navbar-nav {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        transition: all 0.5;
+        width: 800px;
+        .nav-item {
+          .nav-link {
+            color: white;
+            padding: 0 30px 15px 30px;
+            font-size: 18px;
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+          }
+
+          &::after {
+            content: "";
+            width: 0;
+            height: 2px;
+            display: block;
+            background: linear-gradient(to right, $color-yellow, $color-orange);
+            transition: all 0.3s;
+          }
+
+          &:hover::after {
+            width: 100%;
+          }
+
+          &:active::after {
+            width: 100%;
+          }
+        }
+
+        .active {
+          color: yellow !important;
+        }
+      }
+    }
+  }
+}
+
+@include responsive("md") {
+  .header {
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    width: 100%;
+    opacity: 0.8;
+
+    .header_account {
+      margin-top: 10px;
+      .account_detail {
+        background-color: transparent;
+        border: 1px solid $color-orange;
+        color: wheat;
+
+        &:focus {
+          background-color: transparent;
+          outline: none;
+        }
+
+        &:active {
+          background-color: transparent;
+          outline: none;
+        }
+      }
+      .acount_logout {
+        &:focus {
+          background-color: $color-orange;
+        }
+      }
+
+      .account_icon {
+        margin-right: 10px;
+      }
+    }
+
+    .header__nav {
+      .navbar-nav {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        transition: all 0.5;
+        width: 800px;
+
+        .nav-item {
+          .nav-link {
+            color: white;
+            padding: 0 0 15px 0;
+            font-size: 18px;
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+            margin-top: 10px;
+            width: 50%;
+            margin-right: 0;
+          }
+
+          &::after {
+            content: "";
+            width: 0;
+            height: 2px;
+            display: block;
+            background: linear-gradient(to right, $color-yellow, $color-orange);
+            transition: all 0.3s;
+          }
+
+          &:hover::after {
+            width: 40%;
+          }
+
+          &:active::after {
+            width: 40%;
+          }
+        }
+
+        .active {
+          color: yellow !important;
+        }
+      }
+    }
+  }
+}

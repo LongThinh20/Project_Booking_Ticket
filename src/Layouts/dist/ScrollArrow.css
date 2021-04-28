@@ -1,0 +1,35 @@
+.demoScroll .scrollTop {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 1px solid orange;
+  right: 20px;
+  bottom: 20px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.2s;
+  transition: opacity 0.5s;
+  opacity: 0.5;
+  color: orange;
+  border-radius: 5px;
+}
+.demoScroll .scrollTop:hover {
+  opacity: 1;
+  background-color: orange;
+  color: white;
+}
+.demoScroll::before {
+  display: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

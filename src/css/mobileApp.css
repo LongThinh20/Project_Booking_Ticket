@@ -1,0 +1,109 @@
+.mobileApp {
+  background-image: url(../img/background.jpg);
+  min-height: 400px;
+}
+
+.mobileApp .content {
+  padding: 50px 0;
+}
+
+.mobileApp .content .content_left {
+  margin: auto 0;
+  line-height: 3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  width: 80%;
+  text-align: center;
+}
+
+.mobileApp .content .content_left p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mobileApp .content .content_right .out_line {
+  border: 5px solid #222;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.mobileApp .content .content_right .out_line img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .mobileApp {
+    background-image: url(../img/background.jpg);
+  }
+  .mobileApp .content {
+    padding: 50px 0;
+  }
+  .mobileApp .content .content_left {
+    margin: auto 0;
+    line-height: 3em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    width: 60%;
+    text-align: center;
+  }
+  .mobileApp .content .content_left p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .mobileApp .content .content_right .out_line {
+    border: 5px solid #222;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .mobileApp .content .content_right .out_line img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .mobileApp {
+    background-image: url(../img/background.jpg);
+  }
+  .mobileApp .content {
+    padding: 50px 0;
+  }
+  .mobileApp .content .content_left {
+    margin: auto 0;
+    line-height: 3em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    width: 60%;
+    text-align: center;
+  }
+  .mobileApp .content .content_left p {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .mobileApp .content .content_right .out_line {
+    border: 5px solid #222;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .mobileApp .content .content_right .out_line img {
+    height: 100%;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=mobileApp.css.map */

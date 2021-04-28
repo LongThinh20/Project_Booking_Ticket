@@ -1,0 +1,296 @@
+.PersonalInfo {
+  padding: 200px 0;
+  min-height: 800px;
+}
+
+.PersonalInfo .avatar_Info ul li a {
+  color: #7e7e7e;
+}
+
+.PersonalInfo .avatar_Info ul li .active {
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  background-color: #f8b85d;
+  border: 1px solid #eb7633;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.PersonalInfo .avatar_Info ul li .active:hover {
+  background-color: #eb7633;
+  color: white;
+}
+
+.PersonalInfo .avatar_Info ul li .active:focus {
+  border: 1px solid #eb7633;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.PersonalInfo .personal_Info h3 {
+  color: #eb7633;
+  font-size: 23px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.PersonalInfo .personal_Info h3::after {
+  content: " ";
+  width: 300px;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(#f8b85d), to(#eb7633));
+  background: linear-gradient(to right, #f8b85d, #eb7633);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+.PersonalInfo .personal_Info td {
+  width: 50px;
+}
+
+.PersonalInfo .history_Info h3 {
+  color: #eb7633;
+  font-size: 23px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.PersonalInfo .history_Info h3::after {
+  content: " ";
+  width: 250px;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(#f8b85d), to(#eb7633));
+  background: linear-gradient(to right, #f8b85d, #eb7633);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+.PersonalInfo .history_Info table {
+  background-color: #f8b85d;
+  border-radius: 5px;
+}
+
+.PersonalInfo .history_Info table td {
+  color: white;
+  padding: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.PersonalInfo .history_Info table td:hover {
+  color: #eb7633;
+}
+
+.PersonalInfo .history_Info table .title_Info {
+  color: #eb7633;
+}
+
+.PersonalInfo .history_Info table .title_Info th {
+  border-top: none;
+  padding-top: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .PersonalInfo {
+    padding: 200px 0;
+    min-height: 800px;
+  }
+  .PersonalInfo .avatar_Info ul li a {
+    color: #7e7e7e;
+  }
+  .PersonalInfo .avatar_Info ul li .active {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    background-color: #f8b85d;
+    border: 1px solid #eb7633;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .PersonalInfo .avatar_Info ul li .active:hover {
+    background-color: #eb7633;
+    color: white;
+  }
+  .PersonalInfo .avatar_Info ul li .active:focus {
+    border: 1px solid #eb7633;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .PersonalInfo .personal_Info h3 {
+    color: #eb7633;
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .PersonalInfo .personal_Info h3::after {
+    content: " ";
+    width: 300px;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b85d), to(#eb7633));
+    background: linear-gradient(to right, #f8b85d, #eb7633);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+  }
+  .PersonalInfo .personal_Info td {
+    width: 50px;
+  }
+  .PersonalInfo .history_Info h3 {
+    color: #eb7633;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .PersonalInfo .history_Info h3::after {
+    content: " ";
+    width: 250px;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b85d), to(#eb7633));
+    background: linear-gradient(to right, #f8b85d, #eb7633);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+  }
+  .PersonalInfo .history_Info table {
+    background-color: #f8b85d;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .PersonalInfo .history_Info table th {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .PersonalInfo .history_Info table td {
+    color: white;
+    padding: 3px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size: 12px;
+  }
+  .PersonalInfo .history_Info table td:hover {
+    color: #eb7633;
+  }
+  .PersonalInfo .history_Info table .title_Info {
+    color: #eb7633;
+  }
+  .PersonalInfo .history_Info table .title_Info th {
+    border-top: none;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .PersonalInfo {
+    padding: 200px 0;
+    min-height: 800px;
+  }
+  .PersonalInfo .avatar_Info ul li a {
+    color: #7e7e7e;
+  }
+  .PersonalInfo .avatar_Info ul li .active {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    background-color: #f8b85d;
+    border: 1px solid #eb7633;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .PersonalInfo .avatar_Info ul li .active:hover {
+    background-color: #eb7633;
+    color: white;
+  }
+  .PersonalInfo .avatar_Info ul li .active:focus {
+    border: 1px solid #eb7633;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .PersonalInfo .personal_Info {
+    overflow-x: auto;
+    max-width: 360px;
+  }
+  .PersonalInfo .personal_Info h3 {
+    color: #eb7633;
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .PersonalInfo .personal_Info h3::after {
+    content: " ";
+    width: 300px;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b85d), to(#eb7633));
+    background: linear-gradient(to right, #f8b85d, #eb7633);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+  }
+  .PersonalInfo .personal_Info td {
+    width: 50px;
+  }
+  .PersonalInfo .history_Info h3 {
+    color: #eb7633;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .PersonalInfo .history_Info h3::after {
+    content: " ";
+    width: 250px;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(#f8b85d), to(#eb7633));
+    background: linear-gradient(to right, #f8b85d, #eb7633);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+  }
+  .PersonalInfo .history_Info table {
+    background-color: #f8b85d;
+    min-width: 3600px;
+    overflow-x: scroll;
+    border-radius: 5px;
+  }
+  .PersonalInfo .history_Info table td {
+    color: white;
+    padding: 3px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size: 12px;
+  }
+  .PersonalInfo .history_Info table td:hover {
+    color: #eb7633;
+  }
+  .PersonalInfo .history_Info table .title_Info {
+    color: #eb7633;
+  }
+  .PersonalInfo .history_Info table .title_Info th {
+    border-top: none;
+    padding-top: 0;
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=PersonalInfo.css.map */

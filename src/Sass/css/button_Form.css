@@ -1,0 +1,24 @@
+.button_Form {
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  background-color: #f8b85d;
+  border: 1px solid #eb7633;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.button_Form:hover {
+  background-color: #eb7633;
+  color: white;
+}
+
+.button_Form:focus {
+  border: 1px solid #eb7633;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=button_Form.css.map */

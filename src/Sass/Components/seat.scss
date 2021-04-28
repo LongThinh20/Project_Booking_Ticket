@@ -1,0 +1,122 @@
+@import "../Helpers/mixin";
+@import "../Helpers/variables";
+
+.seat {
+  height: 25px;
+  width: 28px;
+  margin: 5px;
+  text-align: center;
+  background: #3e515d;
+  color: transparent;
+  border: 1px solid #3e515d;
+  border-radius: 7px;
+  position: relative;
+  color: white;
+  font-size: 12px;
+  &::before {
+    content: "";
+    width: 21px;
+    height: 23px;
+    position: absolute;
+    background: #3e515d;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.856);
+    top: -4px;
+    left: 2px;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+@include reponsive_min_max(577px, 767px) {
+  .seat {
+    height: 25px;
+    width: 28px;
+    margin: 2px;
+    text-align: center;
+    background: #3e515d;
+    color: transparent;
+    border: 1px solid #3e515d;
+    border-radius: 7px;
+    position: relative;
+    color: white;
+    font-size: 12px;
+    &::before {
+      content: "";
+      width: 21px;
+      height: 23px;
+      position: absolute;
+      background: #3e515d;
+      border-radius: 5px;
+      border: 2px solid rgba(255, 255, 255, 0.856);
+      top: -4px;
+      left: 2px;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@include responsive("sm") {
+  .seat {
+    height: 25px;
+    width: 28px;
+    margin: 2px;
+    text-align: center;
+    background: #3e515d;
+    color: transparent;
+    border: 1px solid #3e515d;
+    border-radius: 7px;
+    position: relative;
+    color: white;
+    font-size: 12px;
+    &::before {
+      content: "";
+      width: 21px;
+      height: 23px;
+      position: absolute;
+      background: #3e515d;
+      border-radius: 5px;
+      border: 2px solid rgba(255, 255, 255, 0.856);
+      top: -4px;
+      left: 2px;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@include responsive("xs") {
+  .seat {
+    height: 25px;
+    width: 28px;
+    margin: 2px;
+    text-align: center;
+    background: #3e515d;
+    color: transparent;
+    border: 1px solid #3e515d;
+    border-radius: 7px;
+    position: relative;
+    color: white;
+    font-size: 12px;
+
+    // &::before {
+    //   content: "";
+    //   width: 21px;
+    //   height: 23px;
+    //   position: absolute;
+    //   background: #3e515d;
+    //   border-radius: 5px;
+    //   border: 2px solid rgba(255, 255, 255, 0.856);
+    //   top: -4px;
+    //   left: 2px;
+    // }
+    // &:focus {
+    //   outline: none;
+    // }
+    
+  }
+}

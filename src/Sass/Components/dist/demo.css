@@ -1,0 +1,27 @@
+.demo {
+  height: 27px;
+  width: 33px;
+  margin: 5px;
+  text-align: center;
+  background: green;
+  color: transparent;
+  border: 1px solid green;
+  border-radius: 8px 5px 5px;
+  position: relative;
+  color: white;
+}
+.demo::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background: transparent;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.856);
+  top: -3px;
+  left: 3px;
+  color: white;
+}
+.demo:focus {
+  outline: none;
+}

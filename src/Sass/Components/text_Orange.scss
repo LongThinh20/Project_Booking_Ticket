@@ -1,0 +1,12 @@
+@import "../Helpers/mixin";
+@import "../Helpers/variables";
+
+.text_Orange {
+  @include styleText($color-orange, 16px, $fw-bold);
+}
+
+@include reponsive_min_max(360px, 575px) {
+  .text_Orange {
+    @include styleText($color-orange, 12px, $fw-bold);
+  }
+}

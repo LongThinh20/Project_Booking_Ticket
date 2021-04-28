@@ -1,0 +1,90 @@
+@import "../Helpers/mixin";
+@import "../Helpers/variables";
+
+.seatVip {
+  height: 25px;
+  width: 28px;
+  text-align: center;
+  background: $color-yellow;
+  color: transparent;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  position: relative;
+  color: white;
+
+  &::before {
+    content: "";
+    width: 21px;
+    height: 23px;
+    position: absolute;
+    background: $color-yellow;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.856);
+    top: -4px;
+    left: 2px;
+    color: $color-yellow;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+@include reponsive_min_max(577px, 767px) {
+  .seatVip {
+    height: 25px;
+    width: 28px;
+    text-align: center;
+    background: $color-yellow;
+    color: transparent;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    position: relative;
+    color: white;
+
+    &::before {
+      content: "";
+      width: 21px;
+      height: 23px;
+      position: absolute;
+      background: $color-yellow;
+      border-radius: 5px;
+      border: 2px solid rgba(255, 255, 255, 0.856);
+      top: -4px;
+      left: 2px;
+      color: $color-yellow;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
+@include responsive("xs") {
+  .seatVip {
+    height: 25px;
+    width: 28px;
+    text-align: center;
+    background: $color-yellow;
+    color: transparent;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    position: relative;
+    color: white;
+
+    // &::before {
+    //   content: "";
+    //   width: 21px;
+    //   height: 23px;
+    //   position: absolute;
+    //   background: $color-yellow;
+    //   border-radius: 5px;
+    //   border: 2px solid rgba(255, 255, 255, 0.856);
+    //   top: -4px;
+    //   left: 2px;
+    //   color: $color-yellow;
+    // }
+    // &:focus {
+    //   outline: none;
+    // }
+  }
+  
+}

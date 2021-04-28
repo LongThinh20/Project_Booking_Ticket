@@ -1,0 +1,75 @@
+.button_Trailer {
+  position: absolute;
+  color: white;
+  left: -10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+.button_Trailer i {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #fff;
+  background-color: #55555596;
+  border-radius: 5px;
+  line-height: 70px;
+  text-align: center;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+.button_Trailer i:hover {
+  transform: scale(0.9);
+}
+.button_Trailer a {
+  font-size: 13px;
+  cursor: pointer;
+  letter-spacing: 4px;
+  margin: 10px 0;
+  text-decoration: none;
+  color: white;
+}
+.button_Trailer:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .button_Trailer {
+    position: absolute;
+    color: white;
+    left: -35%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    opacity: 0.5;
+    transition: all 0.5s;
+  }
+  .button_Trailer i {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #fff;
+    background-color: #55555596;
+    border-radius: 5px;
+    line-height: 70px;
+    text-align: center;
+    margin: 0 auto;
+    transition: all 0.5s;
+  }
+  .button_Trailer i:hover {
+    transform: scale(0.9);
+  }
+  .button_Trailer a {
+    font-size: 13px;
+    cursor: pointer;
+    letter-spacing: 4px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+  }
+  .button_Trailer:hover {
+    opacity: 1;
+  }
+}

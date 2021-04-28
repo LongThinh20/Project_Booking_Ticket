@@ -1,0 +1,42 @@
+@import '../Sass/Helpers/mixin';
+@import '../Sass/Helpers/variables';
+
+.signUp {
+   
+    padding: 200px 0 150px 0;
+    background-color: $color-black-bg;
+    max-height: 800px;
+
+    .signUp_content {
+        width: 30%;
+        margin: auto;
+        color: white;
+
+        h1 {
+            @include styleTextTile(25px,160px);
+        }
+
+    }
+}
+
+
+@include responsive("md"){
+    .signUp {
+   
+        padding: 200px 0 150px 0;
+        background-color: $color-black-bg;
+        max-height: 800px;
+    
+        .signUp_content {
+            width: 50%;
+            margin: auto;
+            color: white;
+    
+            h1 {
+                @include styleTextTile(25px,160px);
+            }
+    
+        }
+    }
+    
+}

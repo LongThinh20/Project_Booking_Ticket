@@ -1,0 +1,23 @@
+.demoText {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 3px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #eb7633, #f8b85d, #eb7633);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 4s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -300%;
+  }
+  100% {
+    background-position: 300%;
+  }
+}

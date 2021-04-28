@@ -1,0 +1,53 @@
+.demoScroll .scrollTop {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 1px solid orange;
+  right: 20px;
+  bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  -webkit-animation: fadeIn 0.2s;
+          animation: fadeIn 0.2s;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  opacity: 0.5;
+  color: orange;
+  border-radius: 5px;
+}
+
+.demoScroll .scrollTop:hover {
+  opacity: 1;
+  background-color: orange;
+  color: white;
+}
+
+.demoScroll::before {
+  display: none;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+/*# sourceMappingURL=ScrollArrow.css.map */
