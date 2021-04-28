@@ -8,7 +8,7 @@ import Personalnfor from "../Screens/HomeMoule/Personalnfor";
 import MovieManager from "../Screens/AdminModule/MovieManager";
 import UserManager from "../Screens/AdminModule/UserManager";
 import Demo from "../Components/Demo";
-import ShowTimeManager from "../Screens/AdminModule/ShowTimeManager";
+// import ShowTimeManager from "../Screens/AdminModule/ShowTimeManager";
 
 const routesHome = [
   {
@@ -71,11 +71,11 @@ const routesAdmin = [
     path: "/admin/user",
     component: UserManager,
   },
-  {
-    exact: false,
-    path: "/admin/showtime",
-    component: ShowTimeManager,
-  },
+  // {
+  //   exact: false,
+  //   path: "/admin/showtime",
+  //   component: ShowTimeManager,
+  // },
 ];
 
 export { routesHome, routesAdmin, routesBooking };
