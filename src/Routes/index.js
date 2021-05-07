@@ -44,7 +44,7 @@ const routesHome = [
 ];
 const routesBooking = [
   {
-    exact: false,
+    exact: true,
     path: "/booking/:Id",
     component: Booking,
   },
@@ -57,7 +57,7 @@ const routesAdmin = [
     component: Demo,
   },
   {
-    exact: false,
+    exact: true,
     path: "/admin",
     component: AdminPage,
   },
