@@ -1,15 +1,8 @@
 {
-  "name": "my-app",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/LongThinh20/Project_Booking_Ticket.git#readme",
-  "bugs": {
-    "url": "https://github.com/LongThinh20/Project_Booking_Ticket.git/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LongThinh20/Project_Booking_Ticket.git"
-  },
+  "homepage": "https://github.com/LongThinh20/Project_Booking_Ticket",
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
     "@hookform/resolvers": "^1.0.0",
@@ -60,6 +53,8 @@
     "yup": "^0.29.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
